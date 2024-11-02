@@ -4,7 +4,8 @@ const NavBar = () => {
 
     const list = <>
        <Link to="/"> <li className="text-xl mr-5">Home</li></Link>
-       <Link to="/listedBook"> <li className="text-xl">Listed Book</li></Link>
+       <Link to="/listedBook"> <li className="text-xl mr-5">Listed Book</li></Link>
+       <Link to="/dasBoard"> <li className="text-xl">Pages to read</li></Link>
         
     </>
     return (

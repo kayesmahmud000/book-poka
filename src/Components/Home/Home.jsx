@@ -3,7 +3,7 @@ import Bnner from "../Banner/Bnner";
 import Book from "../Book/Book"
 import { useLoaderData } from "react-router-dom";
 
-
+import { BarChart, Bar, Cell, XAxis, YAxis, CartesianGrid } from 'recharts';
 const Home = () => {
     const booksData=useLoaderData();
     console.log(booksData)
@@ -16,6 +16,7 @@ const Home = () => {
                 booksData.map(book=><Book key={book.bookId} book={book}></Book>)
             }
            </div>
+           
         </div>
     );
 };
